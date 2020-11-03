@@ -1,0 +1,13 @@
+﻿
+@model Common.Models.MyMessage;  
+@*This could technically be a view model.*@ 
+@{
+    ViewData["Title"] = "Greetings!";
+}
+
+<div class="text-center">
+    <h1 class="display-4">
+        @Model.Greeting
+    </h1>
+   
+</div>
